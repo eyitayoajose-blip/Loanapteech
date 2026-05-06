@@ -26,7 +26,7 @@ function ApplyLoan () {
 
     try {
 
-      const res = await fetch("http://localhost:5000/api/loans/apply", {
+      const res = await fetch("https://loanapteech-1.onrender.com/api/loans/apply", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
